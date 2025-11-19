@@ -30,6 +30,7 @@
     --script-font: 'Pinyon Script', cursive;
     --primary-font: 'Wix Madefor Display', sans-serif; 
     --secondary-font: 'Trirong', serif;
+     --three-font: 'MonteCarlo', cursive;
 
     /* section margin and padding */
     --section-margin: 80px;
@@ -297,6 +298,10 @@ body {
     gap: 8;
     border-radius: 8px;
     font-size: 16px;
+}
+
+.three-font{
+    font-family: var(--three-font);
 }
 
 .btn-large i {
