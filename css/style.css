@@ -3,7 +3,7 @@
     --max-width: 1024px;
     /* color */
     --bg: #f5f5f5;
-    --primary-color: #000000;
+    --primary-color: #db5656;
     --secondary-color:#f9d02d ;
     --text-white: #fff;
     --text-black:#000 ;
@@ -514,9 +514,8 @@ main{
 .section-title {
     font-size: var(--title-fs);
     font-weight: bold;
-    font-family: var(--secondary-font);
     text-align: center;
-    color: var(--primary-color);
+    color: #ec3c0f;
 }
 .img_bg {
 
@@ -663,11 +662,17 @@ main{
 .banner-title span {
     font-family: var(--script-font);
 }
+
+.banner-title p {
+    
+    font-style: bold;
+    font-size: 32px;
+}
+
 .banner-name {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    font-family: var(--secondary-font);
     font-size: var(--title-fs);
     text-align: center;
 }
@@ -709,7 +714,7 @@ main{
 }
 .banner-location .banner_location_name {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
+
 }
 /* ABOUT */
 .line {
@@ -755,7 +760,7 @@ main{
     bottom: 0;
     background-image: linear-gradient(
         to top,
-        var(--primary-color),
+        var(--script-font),
         transparent
 
     );
@@ -764,7 +769,7 @@ main{
 }
 .about-body h3 {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
+   color: #ec3c0f;
 }
 
 
@@ -781,7 +786,7 @@ main{
 .time-line-section .section-title {
     color: var(--text-white);
     font-size: var(--biger-size);
-    font-family: var(--script-font);
+    font-family: var(--primary-color);
 }
 .story_bg {
     position: absolute;
@@ -794,7 +799,7 @@ main{
 }
 
 .timeline-title{
-   font-family: var(--script-font);
+
    font-size: var(--fs-2);
    color: var(--text-white);
    text-align: center;
@@ -849,12 +854,10 @@ main{
     width: 100%;
 }
 .timeline-body .story-date {
-    font-family: var(--primary-font);
     font-size: var(--title-fs);
     color: #F3B8B9;
 }
 .timeline-body .title {
-    font-family: var(--secondary-font);
     font-size: 24px;
     color: var(--text-white);
 }
@@ -1040,7 +1043,7 @@ main{
     padding: 20px;
     display: grid;
     gap: var(--gap);
-    background: #004cff0a;
+    background: #ff000012;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -1072,7 +1075,6 @@ main{
 }
 .card-title {
     font-size: var(--title-fs);
-    font-family: var(--secondary-font);
 }
 
 .invitation-body {
@@ -1140,8 +1142,8 @@ main{
    max-width: 300px;
 }
 .gift-body .groom_name, .gift-body .bride_name {
-    font-family: var(--secondary-font);
-    font-size: 20px;
+    font-family: var(--script-font);
+    font-size: 30px;
     margin-bottom: 8px;
 }
 .social-link {
